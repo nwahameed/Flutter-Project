@@ -3,8 +3,7 @@
 //? You can refactor the code if needed
 
 import 'package:flutter/material.dart';
-
-// import '../models/note.dart';
+import '../models/note.dart';
 
 class NoteScreen extends StatelessWidget {
   Widget build(BuildContext context) {
