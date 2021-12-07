@@ -6,11 +6,15 @@ import 'package:test12/screens/note_screen.dart';
 import 'package:test12/models/note.dart';
 
 class ListScreen extends StatefulWidget {
+  final List<Note> nNote;
+  ListScreen(this.nNote);
+
   @override
   _ListScreenState createState() => _ListScreenState();
 }
 
 class _ListScreenState extends State<ListScreen> {
+ var nCheck = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
